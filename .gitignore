@@ -1,0 +1,23 @@
+# --- Секреты: никогда не коммитить ---
+.env
+
+# --- Данные: сессии аккаунтов, БД, медиа ---
+# (сессия Telethon = полный доступ к аккаунту, БД = твои рассылки)
+data/
+
+# --- Telethon-сессии, если лежат вне data/ ---
+*.session
+*.session-journal
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# --- Система и редакторы ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

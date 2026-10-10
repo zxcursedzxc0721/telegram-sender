@@ -1,0 +1,11 @@
+# Всегда LF в репозитории: код одинаково читается на Windows и Linux,
+# и git не переписывает концы строк при каждом коммите.
+* text=auto eol=lf
+
+# Бинарное — как есть
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.session binary
